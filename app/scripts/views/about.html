@@ -1,0 +1,56 @@
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('scripts/img/about-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>{{title}}</h1>
+                        <hr class="small">
+                        <span class="subheading">{{subtitle}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                {{description}}
+                <hr>
+                <h1>Experience</h1>
+                <div ng-repeat="xp in experience" class="post-preview">
+                    <h2 class="post-title">
+                        {{xp.title}}
+                    </h2>
+                    <h3 class="post-subtitle">
+                        {{xp.subtitle}}
+                    </h3>
+                    <p class="post-meta">{{xp.description}}</p>
+                    <p class="post-category">Category: {{xp.category}}</p>
+                       <div ng-repeat="skl in xp.skills" class="post-elementlist">
+                           {{skl.value}}                           
+                       </div> 
+                    </ul>
+                </div>
+                
+                <hr>
+                <h1>Knowledge</h1>
+                <div ng-repeat="kwl in knowledge" class="post-preview">
+                    <h2 class="post-title">
+                        {{kwl.title}}
+                    </h2>
+                    <h3 class="post-subtitle">
+                        {{kwl.subtitle}}
+                    </h3>
+                    <p class="post-meta">{{kwl.description}}</p>
+                    <p class="post-category">Category: {{kwl.category}}</p>
+                    <div class="post-elementlist">{{kwl.skills}}</div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>

@@ -1,0 +1,52 @@
+{   
+    "title":"Contact Me",
+    "subtitle":"Have questions? I have answers (maybe).",
+    "description":"Want to get in touch with me? Fill out the form below to send me a message and I will try to get back to you within 24 hours!",
+    "contact":[
+	{
+		"key": "name",
+        "label": "Name",
+    	"value": "",
+        "message": "Please, enter your valid Name",
+        "type": "text",
+    	"required": true,
+    	"maxlength":12,
+    	"disable":false,
+        "invalid":false
+   	},
+    {
+        "key": "mail",
+        "label": "Email",
+        "value": "",
+        "message":"Please enter your email address.",
+        "type": "email",
+        "required": true,
+        "maxlength":12,
+        "disable":false,
+        "invalid":false
+    },
+    {
+        "key": "phone",
+        "label": "Phone number",
+        "value": "",
+        "type": "number",
+        "message":"Please enter your phone number.",
+        "required": false,
+        "maxlength":12,
+        "disable":false,
+        "invalid":false
+    },
+    {
+        "key": "message",
+        "label": "Message",
+        "value": "",
+        "message":"Please enter a message.",
+        "type": "textarea",
+        "required": true,
+        "maxlength":255,
+        "disable":false,
+        "invalid":false
+    }
+
+    ]
+}

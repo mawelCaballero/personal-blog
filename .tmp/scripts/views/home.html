@@ -1,0 +1,43 @@
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('scripts/img/home.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>{{views.home.title}}</h1>
+                        <hr class="small">
+                        <span class="subheading"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            	<div ng-repeat="post in posts" class="post-preview">
+            		<a href="#post/{{post.id}}" >
+            			<h2 class="post-title">
+                            {{post.title}}
+                        </h2>
+                        <h3 class="post-subtitle">
+                            {{post.subTitle}}
+                        </h3>
+                        <p class="post-meta">Posted by <a href="#">{{post.author}}</a>{{post.fecha}}</p>
+                    </a>
+                    <p class="post-category">Category: {{post.category}}</p>
+            	</div>
+                <hr>
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Older Posts &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>

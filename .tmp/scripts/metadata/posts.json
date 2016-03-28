@@ -1,0 +1,16 @@
+{"posts":[
+	{
+		"title": "home",
+    	"subtitle": "welcome to the new age",
+    	"description": "Opens a package homepage into your favorite browser.\n\nIf no <package> is passed, opens the homepage of the local package.",
+    	"author":"Mawel",
+    	"date":"12/10/2005"
+   	},
+    {
+    	"title": "Man must explore, and this is exploration at its greatest",
+    	"subtitle": "Problems look mighty small from 150 miles up",
+    	"description": "Test description",
+    	"author":"Mawel",
+    	"date":"12/10/2005"	
+    }]
+}

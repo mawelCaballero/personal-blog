@@ -1,0 +1,48 @@
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('scripts/img/contact-bg.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>{{title}}</h1>
+                        <hr class="small">
+                        <span class="subheading">{{subtitle}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <p>{{description}}</p>
+            <form name="contactForm" id="contactForm" novalidate ng-controller="contactController" ng-submit="sendInfo()">
+            <div class="alert alert-danger" ng-show="contactErrors">
+                <strong>Warning!</strong>{{contactErrorsMsg}}
+            </div>
+                    <div ng-repeat="field in contact" class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+
+                            <label>{{field.label}}</label>
+
+                            <input type="{{field.type}}" class="form-control" id="{{field.key}}" placeholder="{{field.key}}" ng-model="field.value"  data-validation-required-message="{{field.message}}" ng-required='!field.required' ng-change="setValue(field)">
+
+                            <p ng-show="field.invalid" class="help-block text-danger">{{field.message}}</p>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div id="success"></div>
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <button type="submit" class="btn btn-default">Send</button>
+                        </div>
+                    </div>
+                </form>	
+        </div>
+    </div>
+
+    <hr>

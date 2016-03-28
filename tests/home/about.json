@@ -1,0 +1,82 @@
+{   "title":"About me",
+    "subtitle":"This is what I do.",
+    "description":"I'm a computer technician with 11 years of experience working in software development. I have experience in private health, financial companies, government sector, and technically focused in distributed systems and web applications.",
+    "knowledge":[
+	{
+		"title": "Valliniello College",
+    	"subtitle": "Computing Developer Technician, Informática",
+        "category": "knowledge",
+    	"description": "2003 – 2005",
+        "skills":"Qualification in data bases, SQL, PL/SQL, Access,JAVA, Html, Visual Basic, Database Designer, Internet applications"
+   	},
+    {
+    	"title": "Asturias Educación College",
+    	"subtitle": "Computing Technician (System Administrator), Science computer",
+    	"category": "info",
+        "description": "2001 – 2003",
+    	"skills":"Qualification in data bases, SQL, PL/SQL, C++ on Unix, C, Unix Systems, Database Designer, Networking"	
+    }],
+    "experience":[
+    {
+        "title": "Professional Programmer Analyst",
+        "ico":"csc",
+        "subtitle": "CSC - Computer Sciences Corporation",
+        "category": "aboutme",
+        "description": "julio de 2014 – actualidad (1 año 8 meses)Asturias, España"
+    },
+    {
+        "title": "Analyst / Senior Software Developer",
+        "ico":"canton",
+        "subtitle": "Hierros Canton",
+        "category": "aboutme",
+        "description": "julio de 2014 – actualidad (1 año 8 meses)Asturias, España"
+    },
+    {
+        "title": "Analyst Developer",
+        "ico":"csc",
+        "subtitle": "Segurauto Servicios Online",
+        "category": "aboutme",
+        "description": "CSC - BNP Paribas Fortis (Brussels, Belgium)"
+    },
+    {
+        "title": "Developer/Analyst-Developer",
+        "ico":"satec",
+        "subtitle": "SATEC",
+        "category": "aboutme",
+        "description": "2007 – 2010 (3 años).Java Practical experience in design, development, and deployment of Web based business systems.",
+        "skills":[
+            {   "value":"Strong Java programming skills."},
+            {   "value":"Experience using Integrated Development Environments (IDE), practical usage of Rational Application Developer."},
+            {    "value":"Experience working with relational databases."},
+            {    "value":"Ability to think about problems and solutions from a broad perspective."},
+            {    "value":"Ability to multi task and work independently."},
+            {    "value":"Good listening, written and oral communication skills. "},
+            {    "value":"Strong facilitation skills to effectively lead a group to consensus, solve problems, and accomplish assigned task."},
+            {    "value":"Ability to perform analysis in resolving business, workflow, and technology issues."},
+            {    "value":"Experience with Spring Framework or other dependency injection framework."},
+            {    "value":"Experience with Hibernate, JPA, or other ORM library."},
+            {   "value":"Experience with Maven."}
+            ]
+    },
+    {
+        "title": "Trainee/Developer",
+        "ico":"capgemini",
+        "subtitle": "CAPGEMINI",
+        "category": "aboutme",
+        "description": "2005 – 2007 (2 años)",
+        "skills":[
+            {    "value":"Experience in Agile work environment."},
+            {    "value":"Experience developing UI applications for mobile devices."},
+            {    "value":"Solid understanding of Web technologies, including Java Servlets, JSP, MVC."},
+            {    "value":"Experience in developing cross-browser apps using HTML, JavaScript, AJAX, CSS. "},
+            {    "value":"Experience with relational databases: Oracle, MySQL. "},
+            {    "value":"Struts J2EE"},
+            {    "value":"Experience with Tomcat. "},
+            {    "value":"Experience with XML and Web Services. "},
+            {    "value":"Experience in design, development and deployment of complex operational systems. "},
+            {    "value":" Experience with Linux. "},
+            {    "value":"ID’s: WebSphere, Eclipse, Netbeans"}
+            ]
+    }
+    ]
+}
